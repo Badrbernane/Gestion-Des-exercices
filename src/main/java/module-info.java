@@ -6,6 +6,6 @@ module basi.gestionexercices {
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens basi.gestionexercices to javafx.fxml;
-    exports basi.gestionexercices;
+    opens HelpEsi to javafx.fxml;
+    exports HelpEsi;
 }
